@@ -1,0 +1,121 @@
+.App-logo {
+  display: block;
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+.App-header {
+  margin: 30px 0;
+}
+.App-footer {
+  text-align: center;
+  margin: 30px 0;
+}
+a {
+  color: #fc6186;
+}
+.form-control:focus {
+  border-color: #d3fc62;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #d3fc62;
+}
+.btn-outline-secondary {
+  color: #fc6186 !important;
+  font-weight: bold;
+}
+.btn-outline-secondary:hover {
+  background: #d3fc62 !important;
+  color: #fc6186 !important;
+  border: 1px solid #ddd !important;
+}
+.App {
+  max-width: 768px;
+  margin: 0 auto;
+  background: #f9f8fe;
+  font-family: "Open Sans", sans-serif;
+}
+.Results h2 {
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+.Meaning h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  font-weight: bold;
+}
+.Meaning .example {
+  color: #70757a;
+  font-style: italic;
+  margin-top: 10px;
+}
+
+.Dictionary h1 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.Dictionary section {
+  background: white;
+  padding: 30px;
+  border-radius: 6px;
+  box-shadow: 0 10px 20px rgb(0 0 0 / 10%);
+  margin: 20px 0;
+}
+
+.Dictionary input {
+  width: 100%;
+  border-radius: 6px;
+  padding: 6px 10px;
+  color: #333;
+  border: 1px solid #ddd;
+}
+
+.Dictionary .hint {
+  font-size: 11px;
+  margin-top: 5px;
+}
+.Photos img {
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+.Phonetic {
+  margin: 20px 0;
+}
+
+.Phonetic a {
+  border: 1px solid #ddd;
+  text-decoration: none;
+  padding: 8px 15px;
+  font-size: 13px;
+  margin-right: 10px;
+  font-weight: bold;
+  border-radius: 20px;
+  transition: all 150ms ease-in-out;
+}
+
+.Phonetic a:hover {
+  background: #d3fc62;
+  color: #fc6186;
+}
+
+.Phonetic .text {
+  opacity: 0.5;
+  font-weight: bold;
+}
+.Photos img {
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.Synonyms {
+  margin: 15px 0 0;
+  padding: 0;
+}
+
+.Synonyms li {
+  font-size: 13px;
+  display: inline-block;
+  padding-right: 10px;
+  line-height: 1;
+}
